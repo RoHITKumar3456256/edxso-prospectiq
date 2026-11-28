@@ -82,7 +82,7 @@ function initials(name: string): string {
 }
 
 export default function HomePage() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [activeNav, setActiveNav] = useState<NavSection>("overview");
   const [mode, setMode] = useState<InputMode>("keyword");
   const [query, setQuery] = useState("K12 B2B Sales");
